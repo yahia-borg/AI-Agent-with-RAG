@@ -1,0 +1,41 @@
+```
+└── 📁AI-Agent-with-RAG
+    └── 📁api
+        └── __init__.py
+        └── 📁middleware
+            └── auth.py
+        └── 📁routes
+            └── documents.py
+            └── queries.py
+    └── 📁core
+        └── __init__.py
+        └── 📁config
+            └── settings.py
+        └── 📁domain
+            └── entities.py
+            └── exceptions.py
+        └── 📁interface
+            └── llm_client.py
+            └── victor_db.py
+    └── 📁infrastructure
+        └── __init__.py
+        └── 📁docker
+            └── docker-compose.yml
+            └── Dockerfile
+        └── 📁setup
+            └── setup.sh
+    └── 📁services
+        └── __init__.py
+        └── 📁document_processing
+            └── loader.py
+            └── splitter.py
+        └── 📁llm
+            └── llm_client.py
+        └── 📁retrivals
+            └── embeddings.py
+            └── qdrant_adapter.py
+    └── .gitignore
+    └── key.txt
+    └── LICENSE
+    └── README.md
+```
